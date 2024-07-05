@@ -293,13 +293,13 @@ Agregar();
     }//GEN-LAST:event_TablaDatosMouseClicked
 
     private void btnEliminarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEliminarActionPerformed
-eliminar();
+        eliminar();
         listar();
         nuevo();        // TODO add your handling code here:
     }//GEN-LAST:event_btnEliminarActionPerformed
 
     private void btnActualizarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnActualizarActionPerformed
-actualizar();
+        actualizar();
         listar();
         nuevo();        // TODO add your handling code here:
     }//GEN-LAST:event_btnActualizarActionPerformed
@@ -366,8 +366,8 @@ actualizar();
         }
     }
     void Agregar() {
-        String numero = txtNom.getText();
-        String nombre = txtTC.getText();
+        String numero = txtNC.getText();
+        String nombre = txtNom.getText();
         String saldo = txtSal.getText();
         String tipo = txtTC.getText();
         if (nombre.equals("") || tipo.equals("") || saldo.equals("") || tipo.equals("")) {
